@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="m-3">
+        <h1 class="text-center my-3">My Table</h3>
+        <table id="myTable" style="width: 100%;table-layout: fixed;"></table>
+
+    </div>
+{% endblock content %}
+        
+
+
+{% block scripts %}
+<script src="{% static '/assets/js/reports.js' %}"></script>
+{% endblock scripts %}
